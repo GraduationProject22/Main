@@ -1,0 +1,4 @@
+rotary.c:25:6:HAL_ROTARY_Start	24	static
+rotary.c:54:6:HAL_ROTARY_Read_Once	24	static
+rotary.c:82:6:HAL_ROTARY_Stop	16	static
+rotary.c:91:6:HAL_TIM_PeriodElapsedCallback	16	static

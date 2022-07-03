@@ -1,0 +1,11 @@
+analysis.c:32:6:resetBuffersIndexes	4	static
+analysis.c:38:7:splitData	8	static
+analysis.c:56:6:getNeighborData	8	static
+analysis.c:91:6:getCarData	16	static
+analysis.c:103:7:getAbsolute	16	static
+analysis.c:109:6:sendWarning	4	static
+analysis.c:123:6:analysis	24	static
+analysis.c:154:6:mergeData	16	static
+analysis.c:172:6:generateTransmitBuffer	8	static
+analysis.c:193:6:HAL_UART_TxCpltCallback	16	static
+analysis.c:199:6:HAL_UART_RxCpltCallback	16	static
