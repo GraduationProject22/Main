@@ -1,7 +1,0 @@
-imu.c:19:6:HAL_IMU_Init	40	static
-imu.c:49:6:HAL_IMU_Read_Accel	40	static
-imu.c:84:6:HAL_IMU_Read_Gyro	40	static
-imu.c:119:6:HAL_IMU_Read	16	static
-imu.c:126:19:HAL_IMU_SensorsTest	112	static
-imu.c:367:19:HAL_IMU_Test	40	static
-imu.c:394:6:HAL_IMU_Reset	40	static

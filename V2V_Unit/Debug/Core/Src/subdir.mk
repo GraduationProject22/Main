@@ -5,48 +5,57 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Core/Src/IMU_Driver.c \
-../Core/Src/Rasp_Driver.c \
+../Core/Src/NMEA.c \
+../Core/Src/analysis.c \
+../Core/Src/compass.c \
 ../Core/Src/gpio.c \
 ../Core/Src/i2c.c \
+../Core/Src/imu.c \
+../Core/Src/irencoder.c \
 ../Core/Src/main.c \
-../Core/Src/rotary.c \
 ../Core/Src/stm32f1xx_hal_msp.c \
 ../Core/Src/stm32f1xx_it.c \
 ../Core/Src/syscalls.c \
 ../Core/Src/sysmem.c \
 ../Core/Src/system_stm32f1xx.c \
 ../Core/Src/tim.c \
+../Core/Src/uartRingBuffer.c \
 ../Core/Src/usart.c 
 
 OBJS += \
-./Core/Src/IMU_Driver.o \
-./Core/Src/Rasp_Driver.o \
+./Core/Src/NMEA.o \
+./Core/Src/analysis.o \
+./Core/Src/compass.o \
 ./Core/Src/gpio.o \
 ./Core/Src/i2c.o \
+./Core/Src/imu.o \
+./Core/Src/irencoder.o \
 ./Core/Src/main.o \
-./Core/Src/rotary.o \
 ./Core/Src/stm32f1xx_hal_msp.o \
 ./Core/Src/stm32f1xx_it.o \
 ./Core/Src/syscalls.o \
 ./Core/Src/sysmem.o \
 ./Core/Src/system_stm32f1xx.o \
 ./Core/Src/tim.o \
+./Core/Src/uartRingBuffer.o \
 ./Core/Src/usart.o 
 
 C_DEPS += \
-./Core/Src/IMU_Driver.d \
-./Core/Src/Rasp_Driver.d \
+./Core/Src/NMEA.d \
+./Core/Src/analysis.d \
+./Core/Src/compass.d \
 ./Core/Src/gpio.d \
 ./Core/Src/i2c.d \
+./Core/Src/imu.d \
+./Core/Src/irencoder.d \
 ./Core/Src/main.d \
-./Core/Src/rotary.d \
 ./Core/Src/stm32f1xx_hal_msp.d \
 ./Core/Src/stm32f1xx_it.d \
 ./Core/Src/syscalls.d \
 ./Core/Src/sysmem.d \
 ./Core/Src/system_stm32f1xx.d \
 ./Core/Src/tim.d \
+./Core/Src/uartRingBuffer.d \
 ./Core/Src/usart.d 
 
 
@@ -57,7 +66,7 @@ Core/Src/%.o: ../Core/Src/%.c Core/Src/subdir.mk
 clean: clean-Core-2f-Src
 
 clean-Core-2f-Src:
-	-$(RM) ./Core/Src/IMU_Driver.d ./Core/Src/IMU_Driver.o ./Core/Src/Rasp_Driver.d ./Core/Src/Rasp_Driver.o ./Core/Src/gpio.d ./Core/Src/gpio.o ./Core/Src/i2c.d ./Core/Src/i2c.o ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/rotary.d ./Core/Src/rotary.o ./Core/Src/stm32f1xx_hal_msp.d ./Core/Src/stm32f1xx_hal_msp.o ./Core/Src/stm32f1xx_it.d ./Core/Src/stm32f1xx_it.o ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/system_stm32f1xx.d ./Core/Src/system_stm32f1xx.o ./Core/Src/tim.d ./Core/Src/tim.o ./Core/Src/usart.d ./Core/Src/usart.o
+	-$(RM) ./Core/Src/NMEA.d ./Core/Src/NMEA.o ./Core/Src/analysis.d ./Core/Src/analysis.o ./Core/Src/compass.d ./Core/Src/compass.o ./Core/Src/gpio.d ./Core/Src/gpio.o ./Core/Src/i2c.d ./Core/Src/i2c.o ./Core/Src/imu.d ./Core/Src/imu.o ./Core/Src/irencoder.d ./Core/Src/irencoder.o ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/stm32f1xx_hal_msp.d ./Core/Src/stm32f1xx_hal_msp.o ./Core/Src/stm32f1xx_it.d ./Core/Src/stm32f1xx_it.o ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/system_stm32f1xx.d ./Core/Src/system_stm32f1xx.o ./Core/Src/tim.d ./Core/Src/tim.o ./Core/Src/uartRingBuffer.d ./Core/Src/uartRingBuffer.o ./Core/Src/usart.d ./Core/Src/usart.o
 
 .PHONY: clean-Core-2f-Src
 

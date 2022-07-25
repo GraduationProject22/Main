@@ -1,0 +1,3 @@
+compass.c:20:6:HAL_Copmass_Init	40	static
+compass.c:46:6:HAL_Compass_Get	48	static
+compass.c:143:19:HAL_Compass_Test	40	static

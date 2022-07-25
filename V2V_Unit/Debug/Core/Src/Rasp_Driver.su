@@ -1,9 +1,0 @@
-Rasp_Driver.c:54:9:calculateValue	24	static
-Rasp_Driver.c:67:9:takeAbsoulute	16	static
-Rasp_Driver.c:73:6:convertIntToChars	24	static
-Rasp_Driver.c:88:6:indicatePosition	4	static
-Rasp_Driver.c:100:6:sendWarning	4	static
-Rasp_Driver.c:252:6:storeCarVariables	8	static
-Rasp_Driver.c:300:6:resetVariables	4	static
-Rasp_Driver.c:313:6:HAL_UART_TxCpltCallback	16	static
-Rasp_Driver.c:319:6:HAL_UART_RxCpltCallback	16	static

@@ -26,8 +26,10 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  ../Core/Inc/i2c.h ../Core/Inc/main.h ../Core/Inc/tim.h \
- ../Core/Inc/usart.h ../Core/Inc/gpio.h ../Core/Inc/Rasp_Driver.h \
- ../Core/Inc/rotary.h ../Core/Inc/IMU_Driver.h ../Core/Inc/i2c.h
+ ../Core/Inc/usart.h ../Core/Inc/gpio.h ../Core/Inc/irencoder.h \
+ ../Core/Inc/irencoder_config.h ../Core/Inc/imu.h ../Core/Inc/imu_reg.h \
+ ../Core/Inc/imu_config.h ../Core/Inc/uartRingBuffer.h ../Core/Inc/NMEA.h \
+ ../Core/Inc/analysis.h ../Core/Inc/usart.h
 
 ../Core/Inc/main.h:
 
@@ -93,10 +95,20 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../Core/Inc/gpio.h:
 
-../Core/Inc/Rasp_Driver.h:
+../Core/Inc/irencoder.h:
 
-../Core/Inc/rotary.h:
+../Core/Inc/irencoder_config.h:
 
-../Core/Inc/IMU_Driver.h:
+../Core/Inc/imu.h:
 
-../Core/Inc/i2c.h:
+../Core/Inc/imu_reg.h:
+
+../Core/Inc/imu_config.h:
+
+../Core/Inc/uartRingBuffer.h:
+
+../Core/Inc/NMEA.h:
+
+../Core/Inc/analysis.h:
+
+../Core/Inc/usart.h:
